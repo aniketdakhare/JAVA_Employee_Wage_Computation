@@ -8,10 +8,14 @@ public class EmployeeWage
 	void attendance()
 	{
 		Random r = new Random();
-		int check = r.nextInt(2);
+		int check = r.nextInt(3);
 		if (check == 1)
 		{
 			daily_hours=8;
+		}
+		else if (check == 2)
+		{
+			daily_hours=4;
 		}
 		else
 		{
